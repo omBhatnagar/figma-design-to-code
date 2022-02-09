@@ -35,6 +35,8 @@ navbar ul li {
 }
 navbar li a {
 	display: block;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.85);
 }
 
 .burger {
