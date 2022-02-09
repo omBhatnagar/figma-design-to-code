@@ -214,6 +214,12 @@ main h3 {
 	color: #ffffff;
 }
 
+.paths-grid a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+}
+
 .path {
 	background: linear-gradient(
 			97.66deg,
@@ -229,7 +235,7 @@ main h3 {
 	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.path:nth-child(even) {
+.path-green {
 	background: linear-gradient(
 			296.48deg,
 			#87e8de -14.41%,
@@ -248,8 +254,14 @@ main h3 {
 	margin: 0em;
 	color: #ffffff;
 }
+.path-green h3 {
+	text-align: left;
+	margin: 0em;
+	color: #ffffff;
+}
 
-.path p {
+.path p,
+.path-green p {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: normal;
@@ -257,13 +269,15 @@ main h3 {
 	line-height: 22px;
 	color: rgba(255, 255, 255, 0.8);
 }
-.path h5 {
+.path h5,
+.path-green h5 {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 1.2em;
 }
-.path h6 {
+.path h6,
+.path-green h6 {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
